@@ -1,5 +1,5 @@
 
-import Hero from "../components/Hero";
+import Hero from "../components/Hero"; 
 import Services from "../components/Services";
 import About from "../components/About";
 import Gallery from "../components/Gallery";
@@ -9,7 +9,7 @@ import WhatsAppButton from "../components/WhatsAppButton";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-green-50">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-green-50 overflow-x-hidden max-w-screen">
       <Hero />
       <Services />
       <About />
